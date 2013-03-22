@@ -1,0 +1,17 @@
+{
+  "name": "coccoon",
+  "version": "0.0.1-19",
+  "dependencies": {
+    "express": "3.0.6",
+    "binaryjs": "0.1.7",
+    "ejs": "0.8.3"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.65"
+  },
+  "subdomain": "fadomire.cocoon",
+  "scripts": {
+    "start": "app.js"
+  }
+}
