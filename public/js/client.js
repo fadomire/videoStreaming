@@ -1,6 +1,6 @@
 //(function() {
   window.MediaSource = window.MediaSource || window.WebKitMediaSource;
-  var client = new BinaryClient('ws://192.168.0.14:8080');
+  var client = new BinaryClient('ws://'+window.location.hostname+':8080');
   var URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
   if( ! URL ){
     URL={};
