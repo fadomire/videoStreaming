@@ -2,7 +2,7 @@ var express = require("express"),
     BinaryServer = require('binaryjs').BinaryServer,
     fs = require('fs');
   
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || process.env.VMC_APP_PORT || 8080;
 
 var app = express(), 
     server = require('http').createServer(app),
@@ -49,4 +49,4 @@ app.configure(function(){
 app.get('/', function(req, res){
   res.render('index', {})
 });
-console.log('Listening on port 8080');
+console.log('Listening on port '+port);
