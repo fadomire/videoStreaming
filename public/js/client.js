@@ -59,25 +59,11 @@
             console.log("stream 100% received on client")
             stream.destroy();
           });
-          stream.on('drain', function (){
-            console.log('stream drained')
-          });
-        }, false);
-        
-        
-        // if(mediaSource.sourceBuffers.length>0){
-        //   mediaSource.removeSourceBuffer(mediaSource.sourceBuffers[0]);
-        // }
-
-        
-        mediaSource.addEventListener('webkitsourceended', function(e) {
-          console.log('mediaSource readyState: ' + this.readyState);
         }, false);
       });
     });
     client.on('close', function (){
       console.log('client closed')
-
     });
     
 //})();

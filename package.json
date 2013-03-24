@@ -1,6 +1,6 @@
 {
   "name": "coccoon",
-  "version": "0.0.1-19",
+  "version": "0.0.1-25",
   "dependencies": {
     "express": "3.0.6",
     "binaryjs": "0.1.7",
@@ -10,7 +10,7 @@
     "node": "0.8.x",
     "npm": "1.1.65"
   },
-  "subdomain": "fadomire.cocoon",
+  "subdomain": "fadomire.videostreaming",
   "scripts": {
     "start": "app.js"
   }
