@@ -1,6 +1,6 @@
 {
   "name": "coccoon",
-  "version": "0.0.1-28",
+  "version": "0.0.1-30",
   "dependencies": {
     "express": "3.0.6",
     "binaryjs": "0.1.7",

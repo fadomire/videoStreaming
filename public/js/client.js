@@ -1,6 +1,6 @@
 //(function() {
   window.MediaSource = window.MediaSource || window.WebKitMediaSource;
-  var client = new BinaryClient('ws://'+window.location.hostname+);
+  var client = new BinaryClient('ws://'+window.location.hostname);
   var URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
   if( ! URL ){
     URL={};
